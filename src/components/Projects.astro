@@ -4,7 +4,7 @@ import Spring from "./icons/Spring.astro"
 import LinkButton from "./LinkButton.astro"
 import Link from "./icons/Link.astro"
 import GithubIcon from "./icons/GithubIcon.astro"
-
+import React from "./icons/React.astro"
 
 const TAGS = {
   JAVA: {
@@ -17,12 +17,28 @@ const TAGS = {
     class: "bg-green-800 text-white",
     icon: Spring,
   },
+
+  REACT: {
+    name: "React",
+    class: "bg-white text-black",
+    icon: React, 
+  },
 }
 const PROJECTS = [
+
+  {
+    title: "AutoTask - Manager",
+    description: "Aplicación de gestión de proyectos y tareas con asistente inteligente por voz o texto, automatizado con IA",
+    link: "",
+    github: "https://github.com/MAFLIXD/TaskBit-Backend",
+    image: "/projects/shot.jpeg",
+    tags: [TAGS.JAVA, TAGS.SPRING, TAGS.REACT],
+  },
+
   {
     title: "Biblioteca Ucompensar",
-    description:"Programa para el registro y manejo de la biblioteca por consola, con las funciones de agregar, actualizar, eliminar, buscar y ordenar libros.",
-    link: "https://github.com/MAFLIXD/Biblioteca",
+    description:"Programa para el registro y manejo de una biblioteca por consola, con las funciones de agregar, actualizar, eliminar, buscar y ordenar",
+    link: "",
     github: "https://github.com/MAFLIXD/Biblioteca",
     image: "/projects/one.jpg",
     tags: [TAGS.JAVA, TAGS.SPRING],
@@ -30,15 +46,15 @@ const PROJECTS = [
 
   {
     title: "Api de Peliculas",
-    description:"Programa para consultar calificaciones, filtrar y buscar peliculas mediante una Api",
-    link: "https://github.com/MAFLIXD/Java-Api-movies",
+    description:"API para consultar información de peliculas.",
+    link: "",
     github: "https://github.com/MAFLIXD/Java-Api-movies",
     image: "/projects/two.jpg",
-    tags: [TAGS.JAVA, TAGS.SPRING],
+    tags: [TAGS.JAVA],
   },
+
 ]  
 ---
-
 
 <div class="flex flex-col gap-y-16">
 {
