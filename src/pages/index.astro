@@ -45,7 +45,7 @@ import Courses from "../components/icons/Courses.astro";
       <h2 class="text-xl lg:text-2xl text-wrap max-w-[700px]">
         <span>Tecnico en desarrollo de software,</span>
         <span class="text-fuchsia-300"
-          >desarrollador Backend y analista de requerimientos.</span>
+          >desarrollador Backend y analista de proyectos.</span>
         <span class="text-pink-500">De Bogota Colombia,</span>
         <span class="opacity-70"
           >especializado en crear soluciones unicas.</span>
@@ -74,13 +74,14 @@ import Courses from "../components/icons/Courses.astro";
       <p class="text-lg text-gray-300 mb-4">
         Tecnico en Desarrollo de software, con solidos
         conocimientros en paradigmas de programacion, algoritmos
-        y bases de datos, con experiencia en diseño y analisis de requerimientos.
+        y bases de datos, con experiencia en diseño de requerimientos y analisis de 
+        proyectos que aporten valor.
       </p>
 
-      <p class="mb-1">
-        Me especializo en el desarrollo backend y el análisis de requerimientos, 
-        manejo lenguajes como Java y python, tambien sistemas de control de versiones como Git
-        y diferentes tipos de metodologias agiles.
+      <p class="mb-4">
+        Me especializo en el desarrollo backend, análisis de proyectos y solidas bases en ciberseguridad, 
+        manejo lenguajes como Java y python, tambien el sistema de control de versiones Git, mi forma 
+        de trabajar es mediante la metodologia agil SCRUM.
       </p>  
 
       <p class="mb-1">
@@ -118,7 +119,7 @@ import Courses from "../components/icons/Courses.astro";
     <p class="mb-7"></p>
 
     <!-- Curso 2 -->
-    <div class="flex flex-col md:flex-row items-center gap-10 bg-white/10 rounded-xl p-10 shadow-lg">
+    <div class="mb-7 flex flex-col md:flex-row items-center gap-10 bg-white/10 rounded-xl p-10 shadow-lg">
       <img src="/projects/Curso2.png" alt="Curso 2" class="w-140 h-48 object-cover rounded-lg shadow-md" />
       <div>
         <h3 class="text-3xl font-bold mb-2">Curso - Derechos de autor en el desarrollo de software</h3>
@@ -126,6 +127,18 @@ import Courses from "../components/icons/Courses.astro";
           para proteger la propiedad intelectual, con una carga horaria de 60 horas</p>
         </p>
         <span class="text-base text-emerald-600">Marzo 2024</span>
+      </div>
+    </div>
+
+        <!-- Curso 3 -->
+    <div class="flex flex-col md:flex-row items-center gap-10 bg-white/10 rounded-xl p-10 shadow-lg">
+      <img src="/public/projects/curso fortinet.png" alt="Curso 3" class="w-140 h-48 object-cover rounded-lg shadow-md" />
+      <div>
+        <h3 class="text-3xl font-bold mb-2">Fortinet NSE 1 Certificado en Ciberseguridad</h3>
+        <p class="text-lg text-gray-300 mb-3">En este curso, aprendi sobre los conceptos básicos de la ciberseguridad y la nube, 
+          aprendi como gestionar amenazas, y como funiona la infraestructura de red.</p>
+        </p>
+        <span class="text-base text-cyan-700">Julio 2026</span>
       </div>
     </div>
     <!-- Agrega más cursos repitiendo el bloque anterior -->
@@ -177,6 +190,22 @@ import Courses from "../components/icons/Courses.astro";
         </div>
       </div>
     </div>
+
+      <!-- Fortinet -->
+    <div class="flex justify-center">
+      <div class="size-34 relative perspective-[1000px]">
+        <div
+          class="relative w-full h-full transition-transform duration-500"
+          style="transform-style: preserve-3d; transform: rotateY(0deg);"
+          onmouseenter="this.style.transform='rotateY(200deg)'"
+          onmouseleave="this.style.transform='rotateY(0deg)'"
+        >
+          <img class="w-full max-w-[130px] absolute inset-3" src="/public/projects/fortinet-nse-1-certified-in-cybersecurity.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Alura -->
     <div class="flex justify-center">
       <div class="size-34 relative perspective-[1000px]">
@@ -192,7 +221,6 @@ import Courses from "../components/icons/Courses.astro";
     </div>
   </div>
     </SectionContainer>
-
     <SectionContainer id="contacto">
   <h2 class="text-3xl font-semibold mb-8 flex gap-x-3 items-center justify-center">
     <span class="animate-bounce-custom text-fuchsia-400">
